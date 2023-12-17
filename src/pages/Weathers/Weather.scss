@@ -1,0 +1,37 @@
+.temperature {
+    font-size: 48px;
+    font-weight: 600;
+    &__unit{
+        font-size: 32px;
+    }
+    &__forecast{
+        height: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__des{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+    &__today{
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 20px;
+    }
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    &__content{
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
